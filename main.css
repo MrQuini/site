@@ -14,13 +14,18 @@ a {
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+.header_list {
+    display: flex;
+    gap: 40%;
+}
+.header_list-item {
+    list-style:none ;
+}
 contact {
     font-size: 40px;
 }
-header > a {
-  margin-left:10%;
-  margin-right: 10%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
+
