@@ -9,44 +9,76 @@
   </head>
   <body>
     <header>
-      <nav class="header_nav">
-        <img src="file/icon.jpg">
-        <ul class="header_list">
-          <li class="header_list-item">
-            <a href="#start" class="header_list-link">начало</a></li>
-          <li class="header_list-item">
-            <a href="#contact" class="header_list-link">соцсети</a></li>
-          <li class="header_list-item">
-            <a href="#project" class="header_list-link">работы</a></li>
-        </ul>
+      <nav>
+        <img src="file/icon.jpg" class="nav_logo">
+        <div class="nav_link">
+            <a href="#start" class="header_list-link">начало</a>
+            <a href="#project" class="header_list-link">проекты</a>
+            <a href="#contact" class="header_list-link">соцсети</a>
+        </div>
       </nav>
     </header>
-    <about>
+    <div class="about">
       <h1 id="start">Обо мне</h1>
       <p>
         Расскажу немного о себе, мне нравиться создавать разные программы,
         сайты. Я хотел бы выучить англиский язык, а также хотелось бы купить
         фотоопарат и научиться красиво фоткать людей и окружающую местность.
       </p>
-      <p>просмотреннные кино:</p>
-      <p>просмотренные аниме:</p>
-      <p></p>
-      <p>прочинаные книги:</p>
-    </about>
-    <projects>
-      <h1 id="project">Мои работы:</h1>
-    </projects>
-    <contact>
-      <span id="contact">Мои соцсети:</span>
+      <div class="film">
+      <p class="list_name">просмотреннные кино</p>
+      <ul class="card_list">
+        <a href="https://www.kinopoisk.ru/film/838/?socialAlias=MjE1ODA5ODY3" target="_blank">
+        <li class="card_list_item">
+          <img src="file/film/image.png" class="card_img">
+          человек паук
+        </li>
+        </a>
+      </ul>
+      </div>
+      <div class="anime">
+      <p class="list_name">просмотренные аниме</p>
+            <ul class="card_list">
+        <a href="" target="_blank">
+        <li class="card_list_item">
+          <img src="file/film/image.png" class="card_img">
+          человек паук
+        </li>
+        </a>
+      </ul>
+      </div>
+      <div class="book">
+      <p class="list_name">прочинаные книги</p>
+            <ul class="card_list">
+        <li class="card_list_item">
+          <img src="file/book/image.png" class="card_img">
+          человек паук
+        </li>
+      </ul>
+      </div>
+    <div class="project">
+      <h1 id="project" class="list_name">Мои работы</h1>
+      <ul class="card_list">
+        <a href="">
+        <li class="card_list_item">
+          <img src="file/project/image.png" class="card_img">
+          первый проект
+        </li>
+        </a>
+      </ul>
+    </div>
+    </div>
+    <footer>
+      <p id="contact">Мои соцсети:</p>
       <a href="https://t.me/@Woundspeed" target="_blank"
-        ><img src="file/Telegram_Messenger.png"
+        ><img src="file/Telegram_Messenger.png" class="contact_img"
       /></a>
-      <a href="https://github.com/MrQuini" target="_blank"
-        ><img src="file/icons8-github-50.png"
+      <a href="https://github.com/MrQuini" target="_blank" 
+        ><img src="file/icons8-github-50.png" class="contact_img"
       /></a>
       <a href="https://soundcloud.com/mr_quini" target="_blank"
-        ><img src="file/pngwing.com.png" /></a
+        ><img src="file/pngwing.com.png" class="contact_img"/></a
       >
-    </contact>
+    </footer> 
   </body>
 </html>
