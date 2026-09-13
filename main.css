@@ -2,16 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 a {
     text-decoration: none;
     color: black;
 }
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 50%;
+    max-width: 1000px;
     margin: 0 auto;
     margin-top: 20px;
-    background: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG14djYwY2gyZDJ6c3pkaTBmcHE4bDkwaGdkOWg2MzUzOTV2aTUxMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7b3M2WfKlKot9f2PXo/giphy.gif);
+    background: url(file/giphy.gif), #000;
+    background-size: 200px;
+   background-blend-mode: luminosity;
+}
+.about_list_img {
+    width: 400px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+.about_list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
 }
 nav {
     display: flex;
