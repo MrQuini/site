@@ -8,35 +8,54 @@ a {
 }
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 80%;
+    max-width: 50%;
     margin: 0 auto;
     margin-top: 20px;
+    background: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG14djYwY2gyZDJ6c3pkaTBmcHE4bDkwaGdkOWg2MzUzOTV2aTUxMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7b3M2WfKlKot9f2PXo/giphy.gif);
 }
 nav {
     display: flex;
     align-items: center;
-    gap: 30%;
-    background-color: blueviolet;
+    background-color: rgba(15, 112, 0, 0.5);
     border-radius: 15px;
     padding: 10px;
+    justify-content:space-around;
+}
+.nav_list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: 20px;
 }
 .nav_logo{
     border-radius: 30px;
     width: 40px;
     height: 40px;
 }
-.nav_link {
-    display: inline-flex;
-    flex-direction: row;
-    gap: 40%;
-    font-size: 20px;
+.about_p{
+    max-width: 50%;
+    text-align: center;
+}
+.about_h1 {
+    text-align: center;
+}
+.about_me {
+    display: flex;
+    justify-content: space-between;
+}
+.about_img {
+    width: 160px;
+    height: 200px;
+    display: flex;
+    align-items: center;
 }
 .header_list-item {
     list-style:none ;
-    display: inline-flex;
+    display: flex;
+
 }
 .about {
-    background-color: blue;
+    background-color: rgba(15, 112, 0, 0.5);
     border-radius: 15px;
     margin-top: 10px;
     padding: 10px;
