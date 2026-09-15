@@ -17,20 +17,22 @@ body {
    background-blend-mode: luminosity;
 }
 .about_list_img {
-    width: 400px;
-    padding: 20px;
-    background-color: antiquewhite;
-    border-radius: 15px;
+    max-height: 300px;
 }
 .about_list {
     list-style: none;
     display: flex;
-    gap: 15px;
+    max-height: 300px;
+    background-color: rgba(0, 0, 0);
+    border-radius: 15px;
+    padding: 0 15px;
+    scrollbar-width: none;
+    overflow-x:scroll;
 }
 nav {
     display: flex;
     align-items: center;
-    background-color: rgba(15, 112, 0, 0.5);
+    background-color: rgba(200, 200, 200, 0.5);
     border-radius: 15px;
     padding: 10px;
     justify-content:space-around;
@@ -56,9 +58,9 @@ nav {
 .about_me {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 .about_img {
-    width: 160px;
     height: 200px;
     display: flex;
     align-items: center;
@@ -69,39 +71,23 @@ nav {
 
 }
 .about {
-    background-color: rgba(15, 112, 0, 0.5);
+    background-color: rgba(200, 200,200, 0.5);
     border-radius: 15px;
     margin-top: 10px;
     padding: 10px;
 }
-.project {
-    background-color: rgb(255, 0, 0);
+.cards {
+    background: url(file/giphy.gif), black;
+    background-blend-mode: luminosity;
+    background-size: 200px;
     border-radius: 15px;
     margin-top: 10px;
-    padding: 10px;
-}
-.film {
-    background-color: rgb(255, 0, 0);
-    border-radius: 15px;
-    margin-top: 10px;
-    padding: 10px;
-}
-.anime {
-    background-color: rgb(255, 0, 0);
-    border-radius: 15px;
-    margin-top: 10px;
-    padding: 10px;
-}
-.book {
-    background-color: rgb(255, 0, 0);
-    border-radius: 15px;
-    margin-top: 10px;
-    padding: 10px;
+    padding: 15px;
 }
 footer {
     display: flex;
     align-items: center;
-    background-color: rgb(9, 255, 0);
+    background-color: black;
     border-radius: 15px;
     margin-top: 10px;
     padding: 10px;
@@ -128,7 +114,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 15px;
-    background-color: blueviolet;
+    background-color: rgba(200, 200,200, 0.5);
     border-radius: 15px;
 }
 .list_name {
