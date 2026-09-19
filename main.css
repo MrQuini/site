@@ -40,6 +40,14 @@ nav {
     display: flex;
     animation: scroll 10s linear infinite;
 }
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(var(--width_pac)); 
+  }
+}
 .about_list_img {
     max-height: 100px;
 }
@@ -51,14 +59,7 @@ nav {
     overflow: hidden;
     border-image-repeat: round;
 }
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-277.72px); 
-  }
-}
+
 .about_p{
     display: flex;
     max-width: 50%;
