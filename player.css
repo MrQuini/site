@@ -1,0 +1,19 @@
+body {
+    display: flex; 
+    justify-content: center;
+    background-color: black;
+}
+.players {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-size: 100px;
+    height: 100vh;
+    ;
+}
