@@ -72,6 +72,7 @@ nav {
 }
 .about_h1 {
     text-align: center;
+    margin-bottom: 20px;
 }
 .about_me {
     display: flex;
@@ -81,26 +82,22 @@ nav {
     margin-right: 15px;
 }
 .about_img {
-    height: 200px;
-    display: flex;
-    align-items: center;
+    height: 300px;
+    background-image: url(file/icon.jpg);
+    background-repeat: no-repeat;
+    background-position-x:100px;
+    background-position-y: 76px;
+    background-size: 160px;
+    
 }
-.header_list-item {
-    list-style:none ;
-    display: flex;
-
+.about_imgs {
+    height: max-content;
+    position: absolute;
+    left: 64%;
 }
 .about {
     background-color: rgba(200, 200,200, 0.5);
     padding: 10px;
-}
-.cards {
-    background: url(file/giphy.gif), black;
-    background-blend-mode: luminosity;
-    background-size: 100px;
-    border-radius: 15px;
-    margin-top: 10px;
-    padding: 15px 0;
 }
 .contact_img {
     width: 40px;
@@ -122,15 +119,15 @@ nav {
     scrollbar-width: none; 
 }
 .card_img {
-    width: 200px;
-    height: 300px;
+    width: 400px;
+    height: 533px;
     border-radius: 15px;
 }
 .card_list_item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px;
+
     background-color: rgba(200, 200,200, 0.5);
     color: white;
     border-radius: 15px;
@@ -140,9 +137,67 @@ nav {
     padding-left: 10%;
     font-size: 40px;
     width: 90%;
-    color: white;
+    color: black;
     text-align: center;
     font-weight: normal;
+}
+.about_text {
+    padding: 3%;
+    background-color: rgba(253, 253, 253, 0.5);
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap:10px;
+    border-radius: 15px 0 0 15px;
+}
+.about_text > p {
+    font-size: 20px;
+}
+.about_project_1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.project1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.about_project_img1 {
+    width: 560px;
+    border-radius: 15px;
+}
+.text_project1 {
+    background-color: rgba(253, 253, 253, 0.5);
+    padding: 5px;
+    border-radius: 15px;
+}
+.status {
+    width: max-content;
+    display: inline-flex;
+    background-color: rgba(253, 253, 253, 0.5);
+    padding: 5px;
+    border-radius: 15px;
+    align-items: center;
+    gap: 5px;
+}
+.cercle {
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.about_project_1 > p {
+    font-size: 30px;
+} 
+.link_project1{
+    padding: 5px;
+    max-width: max-content;
+    background-color: rgba(253, 253, 253, 0.5);
+    border-radius: 15px;
 }
 @media (max-width: 700px) {
     nav {
@@ -159,9 +214,6 @@ nav {
     }
     .about {
     padding: 0;
-    }
-    .cards {
-        border-radius: 15px 15px 0 0;
     }
     .contacts {
         display: flex;
